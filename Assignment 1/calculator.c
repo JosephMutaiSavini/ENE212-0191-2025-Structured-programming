@@ -11,8 +11,10 @@ int main(){
   scanf("%d",&choice);
   if(choice>4 || choice<1){
     printf("Please select a valid choice.\n");}
-    else{printf("Enter digits");
-         scanf("%lf %lf",&a,&b);
+    else{printf("Enter first digit:");
+         scanf("%lf",&a);
+         printf("Enter second digit:");
+           scanf("%lf",&b);
   switch(choice)
   {
       case(1):
