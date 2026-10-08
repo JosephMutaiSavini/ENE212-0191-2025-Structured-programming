@@ -14,25 +14,25 @@ for(int i=1;i<=4;i++){
 printf("\nEnter information for student %d\n", i);
 printf("Enter the name of the student:");
 scanf("%19s",name);
-//Data verificatiom    
+//input data verificatiom    
 if(!isalpha(name[0])){
     printf("Invalid input!\n");
 }
  //Information input   
 printf("Enter the registration number of the student:");
 scanf("%19s",registrationNumber);
- // Data verification   
+ // Input data verification   
 if(!isalnum(registrationNumber[0])){
     printf("Invalid input");
 }
  //Information input   
 printf("Enter the Marks of the student:");
- // Data verification   
+ // Input data verification   
 if(scanf("%d",&marks)!=1){
     printf("Invalid input:\n");
     return 1;
 }
- // Marks analysis  
+ // Marks analysis using if else statement 
 if(marks>=70 && marks<=100){
     grade='A';
 }
@@ -54,7 +54,7 @@ if(marks>39){
 else{
     performance="Fail";
 }
-// Final display of the information   
+// Final display of the student's performance
 printf("\n------------------------\n");
 printf("\nStudent Information\n");
 printf("\n------------------------\n");
