@@ -33,7 +33,7 @@ if(scanf("%d",&marks)!=1){
     return 1;
 }
  //Marks analysis using switch   
-switch((int)marks){
+switch(marks){
 case 70 ... 100:
     grade='A';
     break;
@@ -50,7 +50,7 @@ case 0 ... 39:
     grade='F';
     break;
 }
-switch((int)marks){
+switch(marks){
 case 40 ... 100:
     performance="Pass";
     break;
