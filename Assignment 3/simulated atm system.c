@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-# include <windows.h>
 // variable declaration
 int balance = 6000;
 // Deposit function
